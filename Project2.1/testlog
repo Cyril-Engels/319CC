@@ -1,0 +1,58 @@
+; 2015-02-05T08:29:49+0000
+; Horizontal Scaling Test
+; Test launched. Please check every minute for update.
+; Your goal is too achieve rps=4000 in 30 min
+; Minimal interval of adding instances is 100 sec
+[Test]
+type=horizontal
+testId=1423124989246
+testFile=test.1423124989246.log
+
+[Minute 1]
+ec2-52-0-20-72.compute-1.amazonaws.com=598.10
+
+[Minute 2]
+ec2-52-0-20-72.compute-1.amazonaws.com=900.57
+
+[Minute 3]
+ec2-52-0-20-72.compute-1.amazonaws.com=844.38
+
+[Minute 4]
+ec2-52-0-20-72.compute-1.amazonaws.com=861.03
+
+[Minute 5]
+ec2-52-0-20-72.compute-1.amazonaws.com=774.03
+ec2-52-0-103-112.compute-1.amazonaws.com=588.23
+
+[Minute 6]
+ec2-52-0-20-72.compute-1.amazonaws.com=831.32
+ec2-52-0-103-112.compute-1.amazonaws.com=922.13
+
+[Minute 7]
+ec2-52-0-20-72.compute-1.amazonaws.com=819.80
+ec2-52-0-103-112.compute-1.amazonaws.com=916.33
+
+[Minute 8]
+ec2-52-0-20-72.compute-1.amazonaws.com=793.89
+ec2-52-0-103-112.compute-1.amazonaws.com=912.03
+
+[Minute 9]
+ec2-52-0-20-72.compute-1.amazonaws.com=678.90
+ec2-52-0-103-112.compute-1.amazonaws.com=885.52
+ec2-52-0-40-193.compute-1.amazonaws.com=590.84
+
+[Minute 10]
+ec2-52-0-20-72.compute-1.amazonaws.com=678.39
+ec2-52-0-103-112.compute-1.amazonaws.com=889.68
+ec2-52-0-40-193.compute-1.amazonaws.com=931.17
+
+[Minute 11]
+ec2-52-0-20-72.compute-1.amazonaws.com=705.21
+ec2-52-0-103-112.compute-1.amazonaws.com=892.48
+ec2-52-0-40-193.compute-1.amazonaws.com=933.93
+
+[Minute 12]
+ec2-52-0-20-72.compute-1.amazonaws.com=818.96
+ec2-52-0-103-112.compute-1.amazonaws.com=749.90
+ec2-52-0-40-193.compute-1.amazonaws.com=911.39
+ec2-52-0-100-19.compute-1.amazonaws.com=639.05
