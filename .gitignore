@@ -1,0 +1,18 @@
+# Class-specific section #
+
+
+# Java section #
+*.class
+
+# Python section #
+*.log
+*.pot
+*.pyc
+local_settings.py
+*.py[cod]
+
+# csv #
+*.csv
+
+# IDE #
+.idea/
